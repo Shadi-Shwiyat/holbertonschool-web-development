@@ -4,7 +4,7 @@ This project we are tasked with implementing a webpage from scratch based on a F
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## General
+### General
 - What is HTML
 - How to create an HTML page from a wireframe
 - What is a markup language
