@@ -13,5 +13,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What the purpose of each HTML tag
 
 # Explanation of files
-- Homepage.fig
+1. Homepage.fig
     - This is a .fig file used with Figma. It is the designer file we are basing our HTML code on.
