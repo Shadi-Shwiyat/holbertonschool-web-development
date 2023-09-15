@@ -11,3 +11,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is an element / tag
 - What is an attribute
 - What the purpose of each HTML tag
+
+# Explanation of files
+- Homepage.fig
+ - This is a .fig file used with Figma. It is the designer file we are basing our HTML code on.
