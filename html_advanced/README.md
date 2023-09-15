@@ -14,4 +14,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # Explanation of files
 - Homepage.fig
- - This is a .fig file used with Figma. It is the designer file we are basing our HTML code on.
+    - This is a .fig file used with Figma. It is the designer file we are basing our HTML code on.
