@@ -1,5 +1,5 @@
-## Projects in this Repository
-# HTML Advanced
+# Projects in this Repository
+## HTML Advanced
 - What is HTML
 - How to create an HTML page from a wireframe
 - What is a markup language
