@@ -15,3 +15,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # Explanation of files
 1. Homepage.fig
     - This is a .fig file used with Figma. It is the designer file we are basing our HTML code on.
+2. index.html
+    - This is the html skeleton that we built based on the homepage.fig wireframe
+3. wireframe.png
+    - An image of the wireframe we based the html skeleton on
+
+!(HTML_advanced_wireframe.png)
