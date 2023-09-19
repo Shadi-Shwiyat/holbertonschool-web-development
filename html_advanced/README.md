@@ -20,4 +20,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 3. wireframe.png
     - An image of the wireframe we based the html skeleton on
 
-!(wireframe.png)
+![wireframe picture](wireframe.png)
