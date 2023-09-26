@@ -12,14 +12,18 @@ Also, at the end of this project, you are expected to be able to explain to anyo
 - What are Box properties in CSS
 - How does the browser load a webpage
 
-# Explanation of files
+# Explanation of files and folders
 1. Homepage.fig
-    - This is a .fig file used with Figma. It is the designer file we are basing our HTML and CSS code on.
+    - A .fig file used with Figma. It is the designer file we are basing our HTML and CSS code on.
 2. index.html
-    - This is the html skeleton that we built based on the homepage.fig wireframe
+    - Html skeleton that we built based on the homepage.fig wireframe
 3. styles.css
     - A CSS style sheet that modifies the html styling to match the figma designer file
-4. wireframe.png
+4. images/
+    - A folder with all the necessary images to build the site (i.e. background, profile pictures)
+5. fonts/
+    - A folder with all the necessary fonts to build the site
+6. wireframe.png
     - An image of the wireframe we based the html skeleton on
 
 ![wireframe picture](wireframe.png)

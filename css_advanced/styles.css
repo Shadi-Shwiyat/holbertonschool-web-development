@@ -1,0 +1,150 @@
+/* Fonts used throughout css styling */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('fonts/SourceSansPro-Bold.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spincycle OT';
+    src: url('fonts/spincycle_ot.otf') format('opentype');
+    font-style: normal;
+}
+/* Styling the Header */
+header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between; /* Center the logo and nav elements horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+
+.nav_elements {
+    display: flex;
+    gap: 52px;
+    margin-right: 160px;
+    margin-top: 69px;
+}
+
+.nav_elements a {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none; /* Remove the underline */
+}
+/* Adding background to the header and banner section */
+.background {
+    background-image: url('images/main_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/* Get schooled block with button */
+.top_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.top_block h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 330px;
+    height: 109px;
+}
+.top_block p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 3em;
+}
+.top_block button {
+    align-items: center;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+    background: #C271FF;
+    margin-top: 16px;
+}
+/* Learn from the Pros text */
+.different-color {
+    color: #C271FF;
+    font-family: 'Source Sans Pro Bold';
+}
+.bottom_block h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 213px;
+}
+/* Pros Block*/
+.pros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro {
+    margin-top: 60px;
+    margin-left: 130px;
+    text-align: center;
+}
+/* Pro text styling */
+.pro h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px; /* 150% */
+}
+.pro p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+/* Apply circular mask to images */
+.pro img {
+    border-radius: 90%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
