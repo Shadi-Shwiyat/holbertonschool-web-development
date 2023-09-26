@@ -148,3 +148,40 @@ header {
     height: 150px;
     object-fit: cover;
 }
+/* Quote Section */
+.quote_section {
+    width: 100%;
+    height: 392px;
+    flex-shrink: 0;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+}
+.quote_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.quote_img {
+    margin-right: 60px;
+    margin-left: 160px;
+    border-radius: 90%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.quote {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+.quote p {
+    margin-bottom: 33px;
+    margin-top: 0px;
+}
+.quote h3,
+.quote em {
+    margin-bottom: 0px;
+}
