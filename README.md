@@ -21,4 +21,4 @@ The goal of this project is to use the previously created HTML skeleton, and add
 - How does the browser load a webpage
 
 # Live Demo
-[Click here to see a live demo of the website created in this repo!]()
+[Click here to see a live demo of the website created in this repo!](https://shadi-shwiyat.github.io/holbertonschool-web-development/)

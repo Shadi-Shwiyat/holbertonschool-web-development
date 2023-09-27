@@ -2,7 +2,7 @@
 The goal of this project is to use the previously created HTML skeleton, and add CSS styling to match the Figma designer file
 
 # Live Demo
-[Click here to see a live demo of the website!]()
+[Click here to see a live demo of the website!](https://shadi-shwiyat.github.io/holbertonschool-web-development/)
 
 # Learning Objectives
 Also, at the end of this project, you are expected to be able to explain to anyone, without the help of Google:
