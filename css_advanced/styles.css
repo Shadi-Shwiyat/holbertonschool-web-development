@@ -51,7 +51,7 @@ header {
     background-size: 110% 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 /* Get schooled block with button */
 .top_block {
