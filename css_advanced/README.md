@@ -1,6 +1,9 @@
 # CSS Advanced
 The goal of this project is to use the previously created HTML skeleton, and add CSS styling to match the Figma designer file
 
+# Live Demo
+[Click here to see a live demo of the website!]()
+
 # Learning Objectives
 Also, at the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 ### General

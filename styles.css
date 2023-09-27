@@ -1,0 +1,373 @@
+/* Fonts used throughout css styling */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('fonts/SourceSansPro-Bold.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spincycle OT';
+    src: url('fonts/spincycle_ot.otf') format('opentype');
+    font-style: normal;
+}
+/* Styling the Header */
+header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between; /* Center the logo and nav elements horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+
+.nav_elements {
+    display: flex;
+    gap: 52px;
+    margin-right: 160px;
+    margin-top: 69px;
+}
+
+.nav_elements a {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none; /* Remove the underline */
+}
+/* Adding background to the header and banner section */
+.background {
+    background-image: url('images/main_background.png');
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 80px;
+}
+/* Get schooled block with button */
+.top_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.top_block h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 330px;
+    height: 109px;
+}
+.top_block p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 3em;
+}
+.top_block button {
+    align-items: center;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+    background: #C271FF;
+    margin-top: 16px;
+}
+/* Learn from the Pros text */
+.different-color {
+    color: #C271FF;
+    font-family: 'Source Sans Pro Bold';
+    font-weight: 700;
+}
+.bottom_block h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 213px;
+}
+/* Pros Block*/
+.pros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro {
+    margin-top: 60px;
+    margin-left: 130px;
+    text-align: center;
+}
+/* Pro text styling */
+.pro h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px; /* 150% */
+}
+.pro p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+/* Apply circular mask to images */
+.pro img {
+    border-radius: 90%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+/* Quote Section */
+.quote_section {
+    width: 100%;
+    height: 392px;
+    flex-shrink: 0;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+}
+.quote_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.quote_img {
+    margin-right: 60px;
+    margin-left: 160px;
+    border-radius: 90%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.quote {
+    color: #FFF;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+.quote p {
+    margin-bottom: 33px;
+    margin-top: 0px;
+}
+.quote h3,
+.quote em {
+    margin-bottom: 0px;
+}
+/* Videos Section */
+.videos_section {
+    font-family: 'Source Sans Pro';
+}
+.videos_title h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+.videos_block {
+    display: flex;
+    justify-content: center;
+}
+.diagonal_smile,
+.sad_smile,
+.natural_smile,
+.happy_smile {
+    position: relative;
+    margin-left: 31px;
+}
+.diagonal_smile p,
+.sad_smile p,
+.natural_smile p,
+.happy_smile p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* Overlay Play Button */
+.play_png {
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+}
+/* Author Block */
+.author {
+    display: flex;
+    align-items: center;
+    color: #C271FF;
+}
+.tiny_phillip {
+    border-radius: 90%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+/* Rating Block */
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.rating_png {
+    width: 107px;
+    height: 15px;
+    margin-right: 79px;
+}
+.rating p {
+    color: #C271FF;
+    text-align: start;
+}
+/* Membership Section */
+.membership {
+    background-color: #071629;
+    margin-top: 87px;
+}
+.membership_button h2 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+    font-weight: 300;
+    color: #FFF;
+    margin-bottom: 58px;
+    padding-top: 70px;
+}
+.membership_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+}
+.membership_button button {
+    width: 162px;
+    height: 44px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+    background: #C271FF;
+    margin-bottom: 52px;
+}
+/* Benefits block */
+.benefits_block {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin-bottom: 85px;
+    margin-left: 164px;
+    margin-right: 164px;
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+.benefit h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.benefit p {
+    font-size: 14px;
+    font-weight: 400;
+}
+/* F.A.Q. Section */
+.faq_section {
+    font-family: 'Source Sans Pro';
+}
+.faq_title h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: normal;
+}
+.faq_block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 330px;
+    margin-right: 360px;
+    margin-bottom: 10px;
+}
+.faq p {
+    margin-bottom: 74px;
+}
+.faq_block h3 {
+    color: #071629;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.faq_block p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* Footer Section */
+.footer {
+    background: #071629;;
+    font-family: 'Source Sans Pro';
+    color: #818181;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.footer p {
+    padding-bottom: 39px;
+}
+.footer_row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 240px;
+    margin-bottom: 70px;
+    padding-top: 95px;
+}
