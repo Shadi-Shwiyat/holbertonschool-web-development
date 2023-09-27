@@ -48,9 +48,10 @@ header {
 /* Adding background to the header and banner section */
 .background {
     background-image: url('images/main_background.png');
-    background-size: 100% 100%;
+    background-size: 110% 100%;
     background-repeat: no-repeat;
     background-position: top center;
+    margin-bottom: 80px;
 }
 /* Get schooled block with button */
 .top_block {
@@ -327,8 +328,8 @@ header {
 .faq_block {
     display: flex;
     justify-content: space-between;
-    margin-left: 249px;
-    margin-right: 271px;
+    margin-left: 330px;
+    margin-right: 360px;
     margin-bottom: 10px;
 }
 .faq p {
