@@ -100,6 +100,7 @@ header {
 .different-color {
     color: #C271FF;
     font-family: 'Source Sans Pro Bold';
+    font-weight: 700;
 }
 .bottom_block h2 {
     text-align: center;
@@ -184,4 +185,74 @@ header {
 .quote h3,
 .quote em {
     margin-bottom: 0px;
+}
+/* Videos Section */
+.videos_section {
+    font-family: 'Source Sans Pro';
+}
+.videos_title h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+.videos_block {
+    display: flex;
+    justify-content: center;
+}
+.diagonal_smile,
+.sad_smile,
+.natural_smile,
+.happy_smile {
+    position: relative;
+    margin-left: 31px;
+    margin-bottom: 87px;
+}
+.diagonal_smile p,
+.sad_smile p,
+.natural_smile p,
+.happy_smile p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* Overlay Play Button */
+.play_png {
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+}
+/* Author Block */
+.author {
+    display: flex;
+    align-items: center;
+    color: #C271FF;
+}
+.tiny_phillip {
+    border-radius: 90%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+/* Rating Block */
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.rating_png {
+    width: 107px;
+    height: 15px;
+    margin-right: 79px;
+}
+.rating p {
+    color: #C271FF;
+    text-align: start;
 }
