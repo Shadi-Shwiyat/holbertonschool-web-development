@@ -321,7 +321,7 @@ header {
     text-align: center;
     font-size: 60px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 360;
     line-height: normal;
 }
 .faq_block {
@@ -347,4 +347,26 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+/* Footer Section */
+.footer {
+    background: #071629;;
+    font-family: 'Source Sans Pro';
+    color: #818181;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.footer p {
+    padding-bottom: 39px;
+}
+.footer_row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 240px;
+    margin-bottom: 70px;
+    padding-top: 95px;
 }
