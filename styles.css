@@ -116,12 +116,11 @@ header {
 /* Pros Block*/
 .pros {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .pro {
     margin-top: 60px;
-    margin-left: 130px;
     text-align: center;
 }
 /* Pro text styling */
